@@ -1,0 +1,22 @@
+Class:
+
+It's a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class will have.
+Think of it as a cookie cutter that defines the shape and features of the cookies it creates.
+It doesn't represent an actual entity itself, but rather provides the instructions for creating them.
+Object:
+
+It's an instance of a class. It's a concrete entity that has its own unique state (values for its attributes) and can perform actions defined by its class's methods.
+Using the cookie cutter analogy, an object is an actual cookie that's been created using the mold. It has its own shape, size, and flavor.
+Key points:
+
+Classes define what objects are made of, while objects represent real-world entities or concepts.
+You can create multiple objects from a single class, each with its own unique state.
+Objects can interact with each other by calling each other's methods.
+Example:
+
+Class: Car
+Attributes: model, color, year, speed
+Methods: start(), accelerate(), brake(), turn()
+Objects:
+myCar (model = "Tesla", color = "red", year = 2023)
+yourCar (model = "Toyota", color = "blue", year = 2022)
